@@ -6,7 +6,7 @@ import { getCurrentQuantityById } from "./cartSlice";
 import { useEffect, useMemo, useState } from "react";
 
 import Button from "../../ui/Button";
-import DeleteItem from "./deleteItem";
+import DeleteItem from "./DeleteItem";
 import ChangeIngredients from "./ChangeIngredients";
 import { useFetcher } from "react-router-dom";
 
